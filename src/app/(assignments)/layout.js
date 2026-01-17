@@ -1,9 +1,9 @@
 export default function AssignmentsLayout({ children }) {
   return (
     <div>
-      <header>
+      {/* <header>
         <h1>display area</h1>
-      </header>
+      </header> */}
 
       <main>{children}</main>
     </div>

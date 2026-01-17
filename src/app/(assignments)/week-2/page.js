@@ -1,7 +1,10 @@
+import StudentInfo from "./_components/StudentInfo";
+
 export default function Week2Page() {
   return (
-    <section id="week-2">
-      <div>week 2</div>
-    </section>
+    <main>
+      <h1>Shopping List</h1>
+      <StudentInfo />
+    </main>
   );
 }
